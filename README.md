@@ -8,7 +8,7 @@ Clone the project to your machine.
 Open a terminal window and navigate to the project directory.
 Run npm install to install all project dependencies.
 Use npm start to run the application.
-Open a web browser and go to http://localhost:3000 to see the application.
+Open a web browser and go to http://localhost:5173 to see the application.
 ## Technologies
 React.js
 React Router for navigation
