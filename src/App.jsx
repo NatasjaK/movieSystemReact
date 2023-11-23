@@ -1,4 +1,3 @@
-import * as React from "react";
 import styled from "styled-components";
 import Banner from "./Banner";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -17,14 +16,17 @@ const MainContent = styled.main`
 function App() {
   return (
     <Router>
+      {/* Main container for the entire application */}
       <MainContent>
         <Banner />
         <Switch>
+          {/* Route for '/user' path, renders UserPage component */}
           <Route path="/user">
-            <UserPage /> 
+            <UserPage />
           </Route>
+          {/* Default route for other paths, renders UserList component */}
           <Route path="/">
-            <UserList /> 
+            <UserList />
           </Route>
         </Switch>
       </MainContent>
